@@ -1,4 +1,4 @@
-package Singleton.Pattern;
+package Patterns.SingleTon;
 
 import java.util.Map;
 

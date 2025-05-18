@@ -1,4 +1,4 @@
-package Singleton.Pattern;
+package Patterns.SingleTon;
 
 // Works well in concurrency
 public class EagerInittialisation {
