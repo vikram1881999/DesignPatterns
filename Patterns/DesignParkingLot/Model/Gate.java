@@ -4,6 +4,7 @@ public class Gate extends BaseEntity{
   private GateType gateType;
   private Operator operator;
   private Floor floor;
+  private ParkingLot parkingLot;
 
   public void setOperator( Operator operator ) {
     this.operator = operator;
@@ -27,5 +28,13 @@ public class Gate extends BaseEntity{
 
   public Floor getFloor() {
     return this.floor;
+  }
+
+  public void setParkingLot( ParkingLot parkingLot ) {
+    this.parkingLot = parkingLot;
+  }
+
+  public ParkingLot getParkingLot() {
+    return this.parkingLot;
   }
 }

@@ -5,19 +5,19 @@ public class Vehicle extends BaseEntity {
   private String number;
 
   public VehicleSpotType getVehicleSpotType() {
-      return vehicleSpotType;
+    return vehicleSpotType;
   }
 
   public void setVehicleSpotType(VehicleSpotType vehicleSpotType) {
-      this.vehicleSpotType = vehicleSpotType;
+    this.vehicleSpotType = vehicleSpotType;
   }
 
   public String getNumber() {
-      return number;
+    return number;
   }
 
   public void setNumber(String number) {
-      this.number = number;
+    this.number = number;
   }
 
 }
